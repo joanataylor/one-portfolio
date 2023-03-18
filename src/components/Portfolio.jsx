@@ -1,8 +1,8 @@
 import React from "react";
 import camps from "../assets/portfolio/camps.png";
 import farmManagement from "../assets/portfolio/cashflow.png";
-import nonprofit from "../assets/portfolio/nonprofit.jpg";
-import portfol from "../assets/portfolio/portfol.png";
+import nonprofit from "../assets/portfolio/mateus.png";
+import portfol from "../assets/portfolio/canva-portfolio.png";
 
 const Portfolio = () => {
   const portfolio = [
@@ -24,7 +24,7 @@ const Portfolio = () => {
     {
       id: 4,
       src: portfol,
-      codeSrc: "https://github.com/gokhansigircik/one-portfolio",
+      codeSrc: "https://github.com/joanataylor/one-portfolio",
     },
   ];
 
