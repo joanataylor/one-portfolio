@@ -8,14 +8,14 @@ const Home = () => {
     <div
       name="home"
       className="h-screen w-full 
-      bg-gradient-to-b from-black via-gray-300 to-white"
+      bg-gradient-to-b from-gray via-gray-300 to-white"
     >
       <div
         className="max-w-screen-lg mx-auto flex flex-col
       items-center justify-center h-full px-4 md:flex-row"
       >
         <div className="flex flex-col justify-center h-full">
-          <h2 className="text-4xl sm:text-7xl font-bold text-white">
+          <h2 className="text-4xl sm:text-7xl font-bold">
             {/* text-4xl for mobile the other for desktop */}
             I'm a Full Stack Developer
           </h2>
@@ -34,8 +34,8 @@ const Home = () => {
               smooth
               duration={500}
               className="group text-white w-fit px-6 py-3 my-2 
-            flex items-center rounded-md bg-gradient-to-r from-cyan-500
-             to-blue-500 cursor-pointer"
+            flex items-center rounded-md bg-gradient-to-r from-yellow-500
+             to-orange-500 cursor-pointer"
             >
               Portfolio
               <span className="group-hover:rotate-90 duration-300">

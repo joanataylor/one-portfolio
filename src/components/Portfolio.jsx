@@ -1,6 +1,6 @@
 import React from "react";
 import camps from "../assets/portfolio/camps.png";
-import farmManagement from "../assets/portfolio/cashflow.png";
+import farmManagement from "../assets/thumbnail-portfolio.png";
 import nonprofit from "../assets/portfolio/mateus.png";
 import portfol from "../assets/portfolio/canva-portfolio.png";
 
@@ -41,7 +41,7 @@ const Portfolio = () => {
         <div className="pb-8">
           <p
             className="text-4xl font-bold inline border-b-4
-          border-gray-500"
+          border-gray-800"
           >
             Portfolio
           </p>
